@@ -2,10 +2,10 @@
 <!-- Co-Spouse Def -->
 <Defs>
     <PawnRelationDef>
-      <workerClass>CoSpousalRelations.PawnRelationWorker_CoSpouse</workerClass>
-      <defName>CoSpouse</defName>
-      <label>Co-Husband</label>
-      <labelFemale>Co-Wife</labelFemale>
+      <workerClass>CoLovePartnerRelations.PawnRelationWorker_CoLove</workerClass>
+      <defName>CoLovePartner</defName>
+      <label>Co-Lover</label>
+      <labelFemale>Co-Lover</labelFemale>
       <importance>188</importance>
       <opinionOffset>10</opinionOffset>
       <romanceChanceFactor>2.0</romanceChanceFactor>

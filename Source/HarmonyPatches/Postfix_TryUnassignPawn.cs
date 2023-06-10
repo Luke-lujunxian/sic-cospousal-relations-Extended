@@ -7,7 +7,8 @@ using RimWorld;
 using Verse;
 
 
-namespace CoSpousalRelations {
+namespace CoLovePartnerRelations
+{
 public static class Postfix_TryUnassignPawn {
     // Modifies the "IdeoligionForbids" method to permit sharing a bed so long as any valid partner is found, so that co-spouses can share a bed
     public static void Patch(Pawn pawn, bool sort, ref CompAssignableToPawn_Bed __instance) {

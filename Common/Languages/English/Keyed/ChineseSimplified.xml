@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- Unassign Pawns from Bed when Spouse is Unassigned -->
+    <PawnNoLongerAssignableToBed>{0_labelShort} 不想再在没有 {1_labelShort} 的床上睡了.</PawnNoLongerAssignableToBed>
+</LanguageData>

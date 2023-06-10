@@ -6,7 +6,8 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 
-namespace CoSpousalRelations {
+namespace CoLovePartnerRelations
+{
 public static class Prefix_SortAssignedPawns {
     // Modifies the "SortAssignedPawns" method for beds in order to minimise distance between pawns that actually want to sleep together
     public static bool Patch(ref List<Pawn> ___assignedPawns, ref CompAssignableToPawn __instance) {

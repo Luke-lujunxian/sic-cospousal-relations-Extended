@@ -4,13 +4,14 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 
-namespace CoSpousalRelations {
+namespace CoLovePartnerRelations
+{
     [StaticConstructorOnStartup]
     public static class ApplyHarmonyPatches {
 		// Reference to this class for patches
         static ApplyHarmonyPatches() {
 			// Instantiate Harmony
-			var harmony = new Harmony("sic.CoSpousalRelations.thisisanid");
+			var harmony = new Harmony("lke.sicCoSpousalRelations.Extended.thisisanid");
 			Type patchType;
 			MethodInfo original;
 			string modified;

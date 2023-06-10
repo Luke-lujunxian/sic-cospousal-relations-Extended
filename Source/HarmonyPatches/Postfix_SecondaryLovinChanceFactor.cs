@@ -3,7 +3,8 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 
-namespace CoSpousalRelations {
+namespace CoLovePartnerRelations
+{
 public static class Postfix_SecondaryLovinChanceFactor {
     // Modifies the "SecondaryLovinChanceFactor" method to permit (rare) spontaneous bisexuality, as existed in earlier versions of the game
     public static void Patch(Pawn otherPawn, ref float __result, ref Pawn ___pawn, Pawn_RelationsTracker __instance) {
