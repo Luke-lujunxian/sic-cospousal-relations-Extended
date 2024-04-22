@@ -4,6 +4,7 @@
   <author>Luke_lu</author>
 	<supportedVersions>
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
 	<packageId>Lke.Ideology.CoLovePartnerRelations</packageId>
 	<description>Modified from [SIC] Co-Spousal Relations. Adds an implied relationship between people in Love to the same person, which removes the mood penalty for sharing a bed so long as their mutual Lover is present. It also allows Co-Lover. Also changes the way that beds are sorted in order to make pawns actually sleep as close to their partners as possible when sharing larger beds.</description>

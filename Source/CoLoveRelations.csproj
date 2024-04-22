@@ -20,9 +20,12 @@
 
     <!-- Dependencies -->    
 	<ItemGroup>
-		<PackageReference Include="Lib.Harmony" Version="2.*" ExcludeAssets="runtime" />
-		<PackageReference Include="Krafs.Publicizer" Version="2.0.1" />
-		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.4.3537" />
+		<PackageReference Include="Lib.Harmony" Version="2.3.3" ExcludeAssets="runtime" />
+		<PackageReference Include="Krafs.Publicizer" Version="2.2.1">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4069" />
 		<PackageReference Include="Mlie_Rimworld_VersionFromManifest" Version="2022.10.8.223337" />
 		<Publicize Include="Assembly-CSharp" />
 	</ItemGroup>
