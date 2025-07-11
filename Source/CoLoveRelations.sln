@@ -7,9 +7,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoLoveRelations", "CoLoveRe
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1.4|Any CPU = 1.4|Any CPU
+		1.5|Any CPU = 1.5|Any CPU
+		1.6|Any CPU = 1.6|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.1.4|Any CPU.ActiveCfg = 1.4|Any CPU
+		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.1.4|Any CPU.Build.0 = 1.4|Any CPU
+		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.1.5|Any CPU.ActiveCfg = 1.5|Any CPU
+		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.1.5|Any CPU.Build.0 = 1.5|Any CPU
+		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.1.6|Any CPU.ActiveCfg = 1.6|Any CPU
+		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.1.6|Any CPU.Build.0 = 1.6|Any CPU
 		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AF6F525-EC5B-406B-965E-A95FD3CA4D88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
